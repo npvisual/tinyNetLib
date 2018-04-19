@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    tinyNetLib is based on Srđan Rašić AbsurdGitter example that he created to showcase ReactiveKit, Bond and the Binder Framework. It is a very simple networking client that relies on functional programming (function composition) and can quickly be tailored to an application specific requirements by composing and wrapping functions. The original idea stems from Chris Eidhof blog post and is worth a good read : http://chris.eidhof.nl/post/tiny-networking-in-swift/
                        DESC
 
   s.homepage         = 'https://github.com/npvisual/tinyNetLib'
@@ -28,7 +28,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/npvisual/tinyNetLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
+  s.swift_version = '4.1'
 
   s.source_files = 'tinyNetLib/Classes/**/*'
   
