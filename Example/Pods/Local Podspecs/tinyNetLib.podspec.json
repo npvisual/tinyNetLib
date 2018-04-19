@@ -1,8 +1,8 @@
 {
   "name": "tinyNetLib",
   "version": "0.1.0",
-  "summary": "A short description of tinyNetLib.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A tiny networking library based on function composition.",
+  "description": "tinyNetLib is based on Srđan Rašić AbsurdGitter example that he created to showcase ReactiveKit, Bond and the Binder Framework. It is a very simple networking client that relies on functional programming (function composition) and can quickly be tailored to an application specific requirements by composing and wrapping functions. The original idea stems from Chris Eidhof blog post and is worth a good read : http://chris.eidhof.nl/post/tiny-networking-in-swift/",
   "homepage": "https://github.com/npvisual/tinyNetLib",
   "license": {
     "type": "MIT",
@@ -16,7 +16,8 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
+  "swift_version": "4.1",
   "source_files": "tinyNetLib/Classes/**/*"
 }
