@@ -21,6 +21,12 @@ class LoggerSpec: QuickSpec {
             it("is of an expected type") {
                 expect(log).to(beAnInstanceOf(SimpleLogger.self))
             }
+            it("is set to debug by default") {
+                expect((log as! SimpleLogger).level.rawValue).to(be(SimpleLogger.Level.debug.rawValue))
+            }
+            it("has a prefix of Client") {
+                expect((log as! SimpleLogger).prefix).to(equal("Client"))
+            }
         }
     }
 }

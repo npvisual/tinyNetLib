@@ -1,12 +1,11 @@
 use_frameworks!
 
 target 'tinyNetLib_Example' do
-  pod 'tinyNetLib', :path => '../'
+    pod 'tinyNetLib', :path => '../'
+end
 
-  target 'tinyNetLib_Tests' do
-    inherit! :search_paths
-
+target 'tinyNetLib_Tests' do
+    pod 'tinyNetLib', :path => '../'
     pod 'Quick', '~> 1.2.0'
     pod 'Nimble', '~> 7.0.2'
-  end
 end
